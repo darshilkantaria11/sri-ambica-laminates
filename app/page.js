@@ -10,10 +10,10 @@ export default function Home() {
   return (
    <>
    <Home1/>
-   <Home2/>
+   {/* <Home2/>
    <Home3/>
    <Home4/>
-   <Home5/>
+   <Home5/> */}
    </>
   );
 }

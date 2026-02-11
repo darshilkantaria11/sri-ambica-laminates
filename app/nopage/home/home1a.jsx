@@ -71,35 +71,35 @@ const LaminateHomepage = () => {
       color: "#e06846", 
       link: "/catalogue/paxora", 
       image: "/Paxora.png",
-      flipbookUrl: null // Add flipbook URL later
+      flipbookUrl: "https://heyzine.com/flip-book/4a7ef3fef5.html" // Add flipbook URL later
     },
     { 
       name: "PLAINX", 
       color: "#cbeef7", 
       link: "/catalogue/plainx", 
       image: "/Plainx.png",
-      flipbookUrl: null // Add flipbook URL later
+      flipbookUrl: "https://heyzine.com/flip-book/a9fe6cde5f.html" // Add flipbook URL later
     },
     { 
       name: "RANGREZ", 
       color: "#c51b2c", 
       link: "/catalogue/rangrez", 
       image: "/Rangrez.png",
-      flipbookUrl: null // Add flipbook URL later
+      flipbookUrl: "https://heyzine.com/flip-book/c501b8ed8f.html" // Add flipbook URL later
     },
     { 
       name: "PLEXA", 
       color: "#a57865", 
       link: "/catalogue/plexa", 
       image: "/Plexa.png",
-      flipbookUrl: null // Add flipbook URL later
+      flipbookUrl: "https://heyzine.com/flip-book/e6f42d36a0.html" // Add flipbook URL later
     },
     { 
       name: "WOODMA", 
       color: "#cfe2de", 
       link: "/catalogue/woodma", 
       image: "/Woodma.png",
-      flipbookUrl: null // Add flipbook URL later
+      flipbookUrl: "https://heyzine.com/flip-book/ff77ff06cd.html" // Add flipbook URL later
     }
   ];
 
@@ -161,7 +161,7 @@ const LaminateHomepage = () => {
               className="mb-8"
             >
               <motion.h3
-                className="text-xl md:text-2xl font-light tracking-[0.3em] text-amber-200 mb-2"
+                className="text-xl md:text-2xl font-light tracking-[0.3em] text-amber-200 mb-2 mt-10"
                 animate={{
                   opacity: [0.7, 1, 0.7]
                 }}
@@ -582,7 +582,7 @@ const LaminateHomepage = () => {
                 </motion.button>
               </Link>
 
-              <Link href="/collections">
+              <Link href="/catalogue">
                 <motion.button
                   whileHover={{ scale: 1.05 }}
                   whileTap={{ scale: 0.95 }}
@@ -598,7 +598,7 @@ const LaminateHomepage = () => {
       </section>
 
       {/* Footer */}
-      <footer className="bg-neutral-950 py-12 border-t border-neutral-800">
+      {/* <footer className="bg-neutral-950 py-12 border-t border-neutral-800">
         <div className="max-w-7xl mx-auto px-6 md:px-12">
           <div className="flex flex-col md:flex-row justify-between items-center gap-6">
             <motion.div
@@ -660,7 +660,7 @@ const LaminateHomepage = () => {
             © 2026 Premium Laminates. Crafted with excellence.
           </motion.div>
         </div>
-      </footer>
+      </footer> */}
 
       {/* Google Fonts */}
       <style dangerouslySetInnerHTML={{

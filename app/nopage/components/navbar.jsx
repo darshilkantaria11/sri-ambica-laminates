@@ -36,9 +36,10 @@ export default function NavBar() {
 
   const navLinks = [
     { name: "Home", href: "/" },
+    { name: "Catalogue", href: "/catalogue" },
     { name: "Services", href: "/services" },
     { name: "About", href: "/about" },
-    { name: "Why us?", href: "/why-us" },
+    // { name: "Why us?", href: "/why-us" },
   ];
 
   // Animation variants
@@ -99,7 +100,7 @@ export default function NavBar() {
         initial="hidden"
         animate="visible"
         variants={navbarVariants}
-        className="fixed top-0 left-0 right-0 z-50"
+        className="fixed top-0 left-0 right-0 z-10"
         style={{ fontFamily: "'Archivo', sans-serif" }}
       >
         {/* Desktop Navbar */}
