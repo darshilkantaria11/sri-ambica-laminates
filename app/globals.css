@@ -7,6 +7,18 @@ body{
 }
 
 @font-face {
+  font-family: 'ci';
+  src: url('/fonts/Cinzel-VariableFont_wght.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+  font-size: larger;
+}
+
+.ci {
+  font-family: 'ci', sans-serif;
+}
+
+@font-face {
   font-family: 'fo';
   src: url('/fonts/RobotSlab-VariableFont_wght.ttf') format('truetype');
   font-weight: normal;
@@ -16,6 +28,7 @@ body{
 .pt {
   font-family: 'fo', sans-serif;
 }
+
 
 
 @keyframes scale-up {

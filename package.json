@@ -11,10 +11,11 @@
   "dependencies": {
     "framer-motion": "^12.10.3",
     "next": "15.1.4",
-    "pdfjs-dist": "^4.10.38",
+    "pdfjs-dist": "^5.4.624",
     "react": "^19.0.0",
     "react-countup": "^6.5.3",
-    "react-dom": "^19.0.0"
+    "react-dom": "^19.0.0",
+    "react-pageflip": "^2.0.3"
   },
   "devDependencies": {
     "@eslint/eslintrc": "^3",

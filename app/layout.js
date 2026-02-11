@@ -92,7 +92,7 @@ export default function RootLayout({ children }) {
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
       >
-        <div className="p-2 bg-white">
+        <div className=" bg-white">
           <Preloader />
           <Navbar />
           {children}
