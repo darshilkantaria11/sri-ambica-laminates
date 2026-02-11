@@ -100,7 +100,7 @@ export default function NavBar() {
         initial="hidden"
         animate="visible"
         variants={navbarVariants}
-        className="fixed top-0 left-0 right-0 z-10"
+        className="fixed top-0 left-0 right-0 z-30"
         style={{ fontFamily: "'Archivo', sans-serif" }}
       >
         {/* Desktop Navbar */}
@@ -144,7 +144,7 @@ export default function NavBar() {
                     whileTap={{ scale: 0.95 }}
                   >
                     <motion.p
-                      className={`relative z-10 font-semibold text-base lg:text-lg transition-colors duration-300 ci ${
+                      className={`relative z-30 font-semibold text-base lg:text-lg transition-colors duration-300 ci ${
                         pathname === link.href
                           ? "text-amber-300"
                           : "text-white group-hover:text-amber-300"
@@ -202,7 +202,7 @@ export default function NavBar() {
                   }}
                 />
 
-                <span className="relative z-10 font-bold text-amber-300 group-hover:text-white transition-colors duration-300">
+                <span className="relative z-30 font-bold text-amber-300 group-hover:text-white transition-colors duration-300">
                   Contact Us
                 </span>
               </motion.button>
@@ -239,7 +239,7 @@ export default function NavBar() {
               >
                 <div className="absolute inset-0 bg-gradient-to-r from-amber-500 to-orange-500 rounded-full" />
                 <div className="absolute inset-[2px] bg-black rounded-full group-hover:bg-transparent transition-all duration-300" />
-                <span className="relative z-10 font-semibold text-amber-300 group-hover:text-white transition-colors duration-300">
+                <span className="relative z-30 font-semibold text-amber-300 group-hover:text-white transition-colors duration-300">
                   Contact
                 </span>
               </motion.button>

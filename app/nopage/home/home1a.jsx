@@ -455,7 +455,7 @@ const LaminateHomepage = () => {
               animate={{ opacity: 1 }}
               exit={{ opacity: 0 }}
               transition={{ duration: 0.3 }}
-              className="fixed inset-0 z-50 bg-black/95 backdrop-blur-sm"
+              className="fixed inset-0 z-20 bg-black/95 backdrop-blur-sm"
               onClick={closeFlipbook}
             >
               <div className="h-full w-full flex flex-col">

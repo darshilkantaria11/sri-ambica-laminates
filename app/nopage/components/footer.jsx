@@ -7,7 +7,7 @@ const navLinks = [
   { name: "Catalogue", href: "/catalogue" },
   { name: "Services", href: "/services" },
   { name: "About", href: "/about" },
-  { name: "Why us?", href: "/why-us" },
+  // { name: "Why us?", href: "/why-us" },
 ];
 
 export default function Footer() {
@@ -33,7 +33,8 @@ export default function Footer() {
             initial={{ opacity: 0 }}
             whileInView={{ opacity: 1 }}
             viewport={{ once: true }}
-            className="flex gap-8 text-gray-400"
+            className="flex flex-wrap justify-center gap-6 text-gray-400"
+
           >
             {navLinks.map((link) => (
               <Link key={link.name} href={link.href}>

@@ -89,7 +89,7 @@ const PreloaderParticle = () => {
             {/* SRI AMBICA - Stagger Letter Reveal */}
             <div className="mb-4 overflow-hidden">
               <motion.div
-                className="text-6xl md:text-8xl lg:text-9xl font-black"
+                className="text-4xl md:text-8xl font-black"
                 style={{ fontFamily: "'Playfair Display', serif" }}
               >
                 {["S", "R", "I"].map((letter, i) => (
